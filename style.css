@@ -24,26 +24,26 @@ body {
   cursor: pointer;
 }
 .info {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .content-fo {
   display: flex;
   flex-direction: column;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 5px;
 }
 .content-fo a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 .addres {
   display: flex;
   flex-direction: column;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 5px;
 }
 .addres a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   width: 100%;
   flex-wrap: wrap;
@@ -149,4 +149,8 @@ span {
   text-decoration: none;
   font-size: 17px;
   color: rgb(238, 255, 0);
+}
+/* contact */
+.aaa iframe {
+  width: 100%;
 }
