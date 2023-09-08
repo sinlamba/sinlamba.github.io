@@ -1,0 +1,15 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=PT+Serif&family=Raleway:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+body {
+  font-family: "EB Garamond";
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
