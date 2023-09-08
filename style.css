@@ -1,8 +1,12 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=PT+Serif&family=Raleway:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap");
 
+:root {
+  overflow-x: hidden;
+}
 body {
   font-family: "EB Garamond";
+  overflow-x: hidden;
 }
 .navbar-nav {
   display: flex;
