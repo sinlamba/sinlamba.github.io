@@ -13,3 +13,140 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.footer-ev {
+  background: linear-gradient(rgba(255, 255, 0, 0.861), rgba(0, 0, 0, 0.797));
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-top: 1px solid rgba(175, 175, 175, 0.712);
+  padding: 10px;
+  flex-wrap: wrap-reverse;
+  cursor: pointer;
+}
+.info {
+  color: rgb(0, 0, 0);
+}
+.content-fo {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+.content-fo a {
+  text-decoration: none;
+  color: #000000;
+}
+.addres {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+}
+.addres a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.form-label {
+  color: #000000;
+}
+.subs a {
+  text-decoration: none;
+  color: white;
+}
+.subs {
+  margin-top: 5px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.797));
+}
+.rrp {
+  display: flex;
+  color: #b4b4b4;
+  padding: 20px;
+}
+.rrp a {
+  text-decoration: none;
+  color: rgb(251, 255, 0);
+}
+.rrp a:hover {
+  color: #fcff46;
+}
+.rrp p:hover {
+  color: #fff346;
+  cursor: pointer;
+}
+.crp {
+  display: flex;
+  color: white;
+  padding: 20px;
+}
+.crp a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #b4b4b4;
+}
+.crp a:hover {
+  color: #ff9f46;
+  cursor: pointer;
+}
+.main-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+.main-3 p {
+  margin-top: -14px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.experience img {
+  width: 100%;
+}
+span {
+  color: rgb(192, 210, 0);
+}
+.read {
+  border-radius: 2px;
+  margin-top: 40px;
+}
+.read a {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(251, 255, 0);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-top: 10px;
+  border: 1px solid rgb(255, 255, 0);
+}
+.read a:hover {
+  background-color: transparent;
+  transition: 1s;
+  color: black;
+}
+.main-dua a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.header h6 a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(238, 255, 0);
+}
