@@ -1,0 +1,71 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=PT+Serif&family=Raleway:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+:root {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  font-family: "EB Garamond";
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.501),
+      rgba(0, 0, 0, 0.541)
+    ),
+    url(img/earth-galaxy-elements-this-image-furnished-by-nasa.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  animation: bul linear 20s infinite;
+  overflow-x: hidden;
+}
+@keyframes bul {
+  0% {
+    background-size: 1390px;
+  }
+  100% {
+    background-size: 2000px;
+  }
+}
+.item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 30%;
+  padding-left: 10px;
+}
+.item-1 h1,
+p,
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav img {
+  width: 20%;
+}
+.item-1 a {
+  background-color: rgba(0, 0, 0, 0.765);
+  padding: 0px 9px;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: white;
+}
+.item-2 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 5px;
+}
+.item-2 a {
+  padding: 5px;
+}
