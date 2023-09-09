@@ -15,25 +15,24 @@ body {
       rgba(0, 0, 0, 0.501),
       rgba(0, 0, 0, 0.541)
     ),
-    url(img/earth-galaxy-elements-this-image-furnished-by-nasa.jpg);
-  background-position: right bottom;
+    url(img/bg.jpg);
+  background-position: center;
   background-size: cover;
-  animation: bul linear 20s infinite;
   overflow-x: hidden;
 }
-@keyframes bul {
-  0% {
-    background-size: 1390px;
-  }
-  100% {
-    background-size: 2000px;
-  }
+.offcanvas,
+.dropdown-menu {
+  background: url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
 }
+
 .item-1 {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-top: 30%;
+  margin-top: 30px;
   padding-left: 10px;
 }
 .item-1 h1,
@@ -47,11 +46,22 @@ a {
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px;
+  margin-top: 60px;
 }
 .nav img {
-  width: 20%;
+  border-radius: 50%;
+  width: 50%;
+  animation: ass 2s ease infinite alternate-reverse;
+}
+@keyframes ass {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
 .item-1 a {
   background-color: rgba(0, 0, 0, 0.765);
